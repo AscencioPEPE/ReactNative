@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "Te Amo Celene",
+    "slug": "first-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icono.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d8518cc7-c745-4cc8-9437-d609878378ef"
+      }
+    }
+  }
+}
